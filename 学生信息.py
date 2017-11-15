@@ -1,5 +1,5 @@
 class Student:
-    '所有学生的信息'
+    '脣霉脫脨脩搂脡煤碌脛脨脜脧垄'
     stuCount = 0
 
     def __init__(self,name,stu_no,class_no,gender):
