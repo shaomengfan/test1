@@ -21,7 +21,8 @@ except urllib2.URLError, e:
        print e.reason
 
 
-
+    print u'正在读取，回车查看'
+    input = raw_input()
 
 
 content_pattern = re.compile('div class="chapter-main".*?>(.*?)</div>',re.S)
